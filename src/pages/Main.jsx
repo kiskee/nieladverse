@@ -1,8 +1,8 @@
-import {} from 'react'
+import React from "react";
 import BodyComponent from '../components/BodyComponent'
 import Layout from '../components/Layaut'
 
-function Main () {
+const  Main = ()=> {
   const FEATURES = [
     { title: 'Interactiva', text: 'La plataforma littleJS ofrece lecciones y proyectos interactivos que hacen que el aprendizaje de la programación sea una experiencia dinámica y emocionante para los estudiantes.' },
     { title: 'Educativa', text: 'Con su enfoque en la enseñanza de los conceptos básicos de la programación y habilidades avanzadas, littleJS ofrece a los estudiantes una base sólida en la programación que puede prepararlos para futuros trabajos en tecnología.' },
@@ -16,5 +16,6 @@ function Main () {
     </>
   )
 }
+
 
 export default Main
