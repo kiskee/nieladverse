@@ -2,7 +2,8 @@ import React from "react";
 import { BoxText } from "./BoxText";
 import { ProductBody } from "./ProductBody";
 import TitleComponent from "./TitleComponent";
-
+import { ButtonContact } from './ButtonContact'
+ 
 const BodyComponent = ({ features }) => {
   return (
     <div>
@@ -16,6 +17,7 @@ littleJS también cuenta con una comunidad en línea donde los estudiantes puede
 En resumen, littleJS es una plataforma de aprendizaje en línea completa y atractiva para enseñar programación a niños y jóvenes mediante el uso del lenguaje JavaScript."
         />
         <ProductBody features={features} />
+        <ButtonContact text="Contactanos"/>
       </div>
     </div>
   );
