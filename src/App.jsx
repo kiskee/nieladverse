@@ -1,59 +1,20 @@
 import {} from 'react'
+import BodyComponent from './components/BodyComponent'
 import Layout from './components/Layaut'
 
 function App () {
+  const FEATURES = [
+    { title: 'hola', text: '      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore accusamus reiciendis ullam, voluptas eveniet, ratione quidem beatae saepe, totam nostrum mollitia nemo velit qui vel perspiciatis veniam inventore asperiores ut pariatur aspernatur quod nobis laudantium autem! Ex repellat at exercitationem quas, officia facere quia distinctio sequi accusamus consequuntur excepturi eum voluptatum. Voluptatem nemo eius pariatur quas sed qui deserunt aliquam nesciunt obcaecati voluptatibus a quasi consequuntur doloribus, explicabo laboriosam omnis quos, doloremque cupiditate! Possimus debitis harum porro illum id, cum aut, voluptate at sint dolores quis repellendus exercitationem iure qui vitae dicta iusto veniam doloremque. Tempora animi delectus commodi possimus.' },
+    { title: 'hola1', text: 'lorem' },
+    { title: 'hola3', text: 'lorem' }
+  ]
   return (
     <>
       <Layout>
-        <div className=' p-4'>
-        <div className="w-full bg-neutral-800 m-0 mb-4 text-white shadow-lg shadow-purple-300">
-      <h1 className="text-center py-5">TaskMaster</h1>
-    </div>
-        <div className="flex space-x-6 w-full ">
-      <div className="w-1/3 max-w-400 bg-neutral-800 p-4 rounded-lg text-center ">
-        <h2 className="text-lg font-bold text-purple-700 mb-4">Title 1</h2>
-        <hr className="border-purple-800 my-2" />
-        <img src="" alt="Image 1" className="w-full h-auto my-4" />
-        <p className="text-sm text-white leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          ullamcorper, lorem vitae eleifend ornare, ante ex cursus est, quis
-          volutpat felis sapien in eros. Phasellus ut felis pulvinar, gravida
-          enim vel, blandit est. Nulla iaculis urna ut posuere fermentum.
-        </p>
-      </div>
-      <div className="w-1/3 max-w-400 bg-neutral-800 p-4 rounded-lg text-center">
-        <h2 className="text-lg font-bold text-purple-700 mb-4">Title 2</h2>
-        <hr className="border-purple-800 my-2" />
-        <img src="" alt="Image 2" className="w-full h-auto my-4" />
-        <p className="text-sm text-white leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          ullamcorper, lorem vitae eleifend ornare, ante ex cursus est, quis
-          volutpat felis sapien in eros. Phasellus ut felis pulvinar, gravida
-          enim vel, blandit est. Nulla iaculis urna ut posuere fermentum.
-        </p>
-      </div>
-      <div className="w-1/3 max-w-400 bg-neutral-800 p-4 rounded-lg text-center">
-        <h2 className="text-lg font-bold text-purple-700 mb-4">Title 3</h2>
-        <hr className="border-purple-800 my-2" />
-        <img src="" alt="Image 3" className="w-full h-auto my-4" />
-        <p className="text-sm text-white leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          ullamcorper, lorem vitae eleifend ornare, ante ex cursus est, quis
-          volutpat felis sapien in eros. Phasellus ut felis pulvinar, gravida
-          enim vel, blandit est. Nulla iaculis urna ut posuere fermentum.
-        </p>
-      </div>
-    </div>
-    
-          
-        </div>
+        <BodyComponent features={FEATURES} />
       </Layout>
     </>
   )
 }
 
 export default App
-
-
-
-
