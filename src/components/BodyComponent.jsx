@@ -17,7 +17,8 @@ littleJS también cuenta con una comunidad en línea donde los estudiantes puede
 En resumen, littleJS es una plataforma de aprendizaje en línea completa y atractiva para enseñar programación a niños y jóvenes mediante el uso del lenguaje JavaScript."
         />
         <ProductBody features={features} />
-        <ButtonContact text="Contactanos"/>
+        <ButtonContact text="Contactanos" back="bg-neutral-800 hover:bg-neutral-700"/>
+        <ButtonContact text="Registrate" back="bg-purple-700 hover:bg-neutral-700" target="/registro"/>
       </div>
     </div>
   );

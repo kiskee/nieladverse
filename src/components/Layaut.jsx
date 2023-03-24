@@ -9,14 +9,17 @@ const Layout = ({ children }) => {
           NielAdverse
         </div>
         <div className='flex font-mono font-bold'>
-          <a href='#' className='mr-4 no-underline text-white'>
-            Link 1
+        <a href='/' className='mr-4 no-underline text-white'>
+            Home
           </a>
-          <a href='#' className='mr-4 no-underline text-white'>
-            Link 2
+          <a href='/interactiva' className='mr-4 no-underline text-white'>
+            Interactiva
           </a>
-          <a href='#' className='no-underline text-white'>
-            Link 3
+          <a href='/educativa' className='mr-4 no-underline text-white'>
+            Educativa
+          </a>
+          <a href='/accesible' className='no-underline text-white'>
+            Accesible
           </a>
         </div>
       </header>

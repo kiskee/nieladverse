@@ -5,8 +5,9 @@ export const ProductBody = ({ features }) => {
   return (
     <div className='flex space-x-6 w-full p-4'>
       {features.map(feature => (
-        <Feature feature={feature} 
-        key={feature.name}
+        <Feature key={feature.name}
+        feature={feature} 
+        img={feature.img}
          />
       ))}
     </div>
